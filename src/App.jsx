@@ -2,20 +2,27 @@
 import './App.css'
 import DaisyNav from './components/DaisyNav/DaisyNav'
 import NavBar from './components/NavBar/NavBar'
+import PricingOptions from './components/PricingOptions/PricingOptions'
+import { Suspense } from 'react'
+
+
+
+
+const pricingPromise = fetch('pricingData.json').then(res=> res.json());
+
 
 function App() {
-
-
   return (
     <>
  
- <NavBar></NavBar>
+ 
  
 <header>
-  <DaisyNav>  </DaisyNav>
+<NavBar></NavBar>
+  {/* <DaisyNav>  </DaisyNav> */}
 </header>
 
-<div className="hero bg-base-200 min-h-screen">
+{/* <div className="hero bg-base-200 min-h-screen">
   <div className="hero-content flex-col lg:flex-row">
     <img
       src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
@@ -30,7 +37,13 @@ function App() {
       <button className="btn btn-primary">Get Started</button>
     </div>
   </div>
-</div>
+</div> */}
+
+<main>
+  <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
+    <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
+  </Suspense>
+</main>
       
       
     </>

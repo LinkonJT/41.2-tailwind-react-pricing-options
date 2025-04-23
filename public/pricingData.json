@@ -1,0 +1,54 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": "29.99/month",
+      "description": "Access to all standard gym equipment and facilities.",
+      "features": [
+        "Cardio equipment access",
+        "Weight machines access",
+        "Free weights access",
+        "Locker room access",
+        "Shower access",
+        "Limited peak hour access",
+        "Fitness orientation",
+        "Monthly newsletter",
+        " базовый доступ к Wi-Fi"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "price": "39.99/month",
+      "description": "Includes Basic features plus group fitness classes.",
+      "features": [
+        "All Basic features",
+        "Group fitness classes (yoga, Zumba, etc.)",
+        "Functional training area access",
+        "Guest passes (2/year)",
+        "Fitness orientation",
+        "Monthly newsletter",
+        "Free Wi-Fi"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": "49.99/month",
+      "description": "All-inclusive access to all facilities, classes, and amenities.",
+      "features": [
+        "All Standard features",
+        "Unlimited group fitness classes",
+        "Swimming pool access",
+        "Sauna access",
+        "Steam room access",
+        "Personal training sessions (2/month)",
+        "Unlimited guest privileges",
+        "Towel service",
+        "Fitness orientation",
+        "Monthly newsletter",
+        "Premium Wi-Fi"
+      ]
+    }
+  ]
+  

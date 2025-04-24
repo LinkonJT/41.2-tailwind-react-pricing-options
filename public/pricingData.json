@@ -20,6 +20,7 @@
       "id": 2,
       "name": "Standard",
       "price": "39.99/month",
+      "popular": true,
       "description": "Includes Basic features plus group fitness classes.",
       "features": [
         "All Basic features",
